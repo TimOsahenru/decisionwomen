@@ -1,6 +1,3 @@
----
-layout: default
----
 <!doctype html>
 <html lang="en">
 
@@ -21,7 +18,93 @@ layout: default
 
 <body id="section_1">
 
-     {% include header.html %}
+   <header class="site-header">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-12 d-flex flex-wrap">
+                    <p class="d-flex me-4 mb-0">
+                        <i class="bi-geo-alt me-2"></i>
+                        No.1 TOPA Close, ONOSA, Ibeju Lekki, Lagos State.
+                    </p>
+
+                    <p class="d-flex mb-0">
+                        <i class="bi-envelope me-2"></i>
+
+                        <a href="/">
+                            wisewomenworship@gmail.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+                    <ul class="social-icon">
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-twitter"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-facebook"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-instagram"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-youtube"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-whatsapp"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="images/logo.png" class="logo img-fluid" alt="Kind Heart Charity">
+                <span>
+                    Wise Women Worship Ministry
+                    <small>Non-profit Organization</small>
+                </span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_3">Initiative</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ways-to-give.html">Ways to Give</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_6">Contact</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link custom-btn custom-border-btn btn" href="https://www.paypal.com/paypalme/dagogopollyn">Donate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
 
     <main>
         <!-- Our Story Section -->
@@ -174,23 +257,92 @@ layout: default
             </div>
         </section>
 
-        <!-- CTA Section -->
-        <section class="cta-section section-padding">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-8 col-12 text-center">
-                        <h2 class="text-white mb-4">Join Us in Making an Impact</h2>
-                        <p class="text-white mb-4">Whether through participating in our programs, volunteering your time, or supporting our initiatives financially, you can help us reach more women and girls in need.</p>
-                        <a href="#" class="custom-btn btn me-3">Volunteer</a>
-                        <a href="#" class="custom-btn custom-border-btn btn">Donate Supplies</a>
-                        <a href="#" class="custom-btn custom-border-btn btn mt-3">Financial Support</a>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 
-    {% include footer.html %}
+   <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12 mb-4">
+                    <img src="images/logo.png" class="logo img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <h5 class="site-footer-title mb-3">Quick Links</h5>
+
+                    <ul class="footer-menu">
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Home</a></li>
+
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">About</a></li>
+
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Initiative</a></li>
+
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mx-auto">
+                    <h5 class="site-footer-title mb-3">Contact Infomation</h5>
+
+                    <p class="text-white d-flex mb-2">
+                        <i class="bi-telephone me-2"></i>
+
+                        <a href="tel: 305-240-9671" class="site-footer-link">
+                          +234 907 767 3577
+                        </a>
+                    </p>
+
+                    <p class="text-white d-flex">
+                        <i class="bi-envelope me-2"></i>
+
+                        <a href="#" class="site-footer-link">
+                            wisewomenworship@gmail.com
+                        </a>
+                    </p>
+
+                    <p class="text-white d-flex mt-3">
+                        <i class="bi-geo-alt me-2"></i>
+                        No.1 TOPA Close, ONOSA, Ibeju Lekki, Lagos State.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-7 col-12">
+                        <p class="copyright-text mb-0">Copyright © 2025 <a href="/">Wise Women</a> Worship Ministry.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
+                        <ul class="social-icon">
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-twitter"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-facebook"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-instagram"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-linkedin"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-youtube"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
