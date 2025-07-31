@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <!doctype html>
 <html lang="en">
 
@@ -18,104 +21,8 @@
 </head>
 
 <body>
-
-    <header class="site-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-12 d-flex flex-wrap">
-                    <p class="d-flex me-4 mb-0">
-                        <i class="bi-geo-alt me-2"></i>
-                        No.1 TOPA Close, ONOSA, Ibeju Lekki, Lagos State.
-                    </p>
-
-                    <p class="d-flex mb-0">
-                        <i class="bi-envelope me-2"></i>
-                        <a href="mailto:wisewomenworship@gmail.com">
-                            wisewomenworship@gmail.com
-                        </a>
-                    </p>
-                </div>
-
-                <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
-                    <ul class="social-icon">
-                        <li class="social-icon-item">
-                            <a href="#" class="social-icon-link bi-twitter"></a>
-                        </li>
-                        <li class="social-icon-item">
-                            <a href="#" class="social-icon-link bi-facebook"></a>
-                        </li>
-                        <li class="social-icon-item">
-                            <a href="#" class="social-icon-link bi-instagram"></a>
-                        </li>
-                        <li class="social-icon-item">
-                            <a href="#" class="social-icon-link bi-youtube"></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <nav class="navbar navbar-expand-lg bg-light shadow-lg">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" class="logo img-fluid" alt="">
-                <span>
-                    Wise Women Worship Ministry
-                    <small>Non-profit Organization</small>
-                </span>
-            </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="index.html#section_2">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="index.html#section_3">Initiative</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ways-to-give.html">Ways to Give</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="index.html#section_6">Contact</a>
-                    </li>
-                    <li class="nav-item ms-3">
-                        <a class="nav-link custom-btn custom-border-btn btn" href="https://www.paypal.com/paypalme/dagogopollyn">Donate</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
+         {% include header.html %}
     <main>
-
-        <!-- <section class="hero-section hero-section-full-height">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 col-12 p-0">
-                        <div class="hero-section-text-wrap d-flex align-items-center">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-8 col-12">
-                                        <h1 class="text-white">Support Our Women's Empowerment Programs</h1>
-                                        <p class="text-white">Your generous donation helps transform lives through education, skills training, and spiritual growth.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
         <section class="section-padding">
             <div class="container">
@@ -144,25 +51,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- Mobile Money -->
-                    <!-- <div class="col-lg-4 col-md-6 col-12 mb-4">
-                        <div class="card h-100 border-0 shadow-sm">
-                            <div class="card-body text-center p-4">
-                                <div class="icon-container mb-3">
-                                    <i class="bi-phone fs-1 text-primary"></i>
-                                </div>
-                                <h4 class="mb-3">Mobile Money</h4>
-                                <ul class="text-start ps-4">
-                                    <li><strong>MTN Mobile Money:</strong> 0803 123 4567</li>
-                                    <li><strong>Airtel Money:</strong> 0802 123 4567</li>
-                                    <li><strong>OPay:</strong> 0805 123 4567</li>
-                                </ul>
-                                <p class="mt-3">Quick and convenient mobile payments.</p>
-                            </div>
-                        </div>
-                    </div> -->
-
                     <!-- Quick Online Donation -->
                     <div class="col-lg-4 col-md-6 col-12 mb-4">
                         <div class="card h-100 border-0 shadow-sm">
@@ -192,50 +80,6 @@
                     <div class="col-lg-8 col-12 mx-auto text-center">
                         <h2 class="mb-4">Your Donation Makes a Difference</h2>
                         <p class="lead mb-5">Every contribution supports our mission to empower women</p>
-                        
-                        <!-- <div class="row">
-                            <div class="col-md-4 col-6 mb-4">
-                                <div class="feature-block">
-                                    <i class="bi-book feature-icon"></i>
-                                    <h5>Education</h5>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-6 mb-4">
-                                <div class="feature-block">
-                                    <i class="bi-briefcase feature-icon"></i>
-                                    <h5>Vocational Training</h5>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-6 mb-4">
-                                <div class="feature-block">
-                                    <i class="bi-heart feature-icon"></i>
-                                    <h5>Health Services</h5>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-6 mb-4">
-                                <div class="feature-block">
-                                    <i class="bi-people feature-icon"></i>
-                                    <h5>Community Support</h5>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-6 mb-4">
-                                <div class="feature-block">
-                                    <i class="bi-house feature-icon"></i>
-                                    <h5>Shelter Programs</h5>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-6 mb-4">
-                                <div class="feature-block">
-                                    <i class="bi-chat-square-heart feature-icon"></i>
-                                    <h5>Spiritual Growth</h5>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -243,72 +87,7 @@
 
     </main>
 
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-12 mb-4">
-                    <img src="images/logo.png" class="logo img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-12 mb-4">
-                    <h5 class="site-footer-title mb-3">Quick Links</h5>
-                    <ul class="footer-menu">
-                        <li class="footer-menu-item"><a href="index.html" class="footer-menu-link">Home</a></li>
-                        <li class="footer-menu-item"><a href="index.html#section_2" class="footer-menu-link">About</a></li>
-                        <li class="footer-menu-item"><a href="index.html#section_3" class="footer-menu-link">Initiative</a></li>
-                        <li class="footer-menu-item"><a href="donate.html" class="footer-menu-link">Ways to Give</a></li>
-                        <li class="footer-menu-item"><a href="index.html#section_6" class="footer-menu-link">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-12 mx-auto">
-                    <h5 class="site-footer-title mb-3">Contact Us</h5>
-                    <p class="text-white d-flex mb-2">
-                        <i class="bi-telephone me-2"></i>
-                        <a href="tel: +2349077673577" class="site-footer-link">
-                            +234 907 767 3577
-                        </a>
-                    </p>
-                    <p class="text-white d-flex mb-2">
-                        <i class="bi-envelope me-2"></i>
-                        <a href="mailto:wisewomen@gmail.com" class="site-footer-link">
-                            wisewomenworship@gmail.com
-                        </a>
-                    </p>
-                    <p class="text-white d-flex">
-                        <i class="bi-geo-alt me-2"></i>
-                        No.1 TOPA Close, ONOSA, Ibeju Lekki, Lagos State.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="site-footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-7 col-12">
-                        <p class="copyright-text mb-0">Copyright © 2025 <a href="#">Wise Women</a> Worship Ministry.</p>
-                    </div>
-                    <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
-                        <ul class="social-icon">
-                            <li class="social-icon-item">
-                                <a href="#" class="social-icon-link bi-twitter"></a>
-                            </li>
-                            <li class="social-icon-item">
-                                <a href="#" class="social-icon-link bi-facebook"></a>
-                            </li>
-                            <li class="social-icon-item">
-                                <a href="#" class="social-icon-link bi-instagram"></a>
-                            </li>
-                            <li class="social-icon-item">
-                                <a href="#" class="social-icon-link bi-youtube"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    {% include footer.html %}
 
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
